@@ -1,0 +1,17 @@
+body{
+    background-image:radial-gradient(red,blue,yellow);
+    background-color: #cccccc;
+}
+
+
+.box{
+    background-color: white;
+    width:350px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20cm;
+    margin-top: 3cm;
+    
+    
+}

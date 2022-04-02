@@ -1,0 +1,27 @@
+.container{
+    height :400px;
+    border:1px solid gray;
+    padding: 5px;
+    display:grid;
+    row-gap: 5px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(6,1fr);
+    column-gap: 5px;
+    
+    
+}
+.container>div{
+    border-radius: 2px;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(34, 32, 32);
+    padding: 20px;
+}
+.item1{
+    grid-column: 1 /span 2;
+}
+.item7{
+    grid-row: 3;
+    grid-row: 1 span/3;
+    
+}
